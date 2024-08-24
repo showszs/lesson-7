@@ -1,0 +1,150 @@
+/* ----------1-------- */
+.nav-main {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.bf {
+  background-color: aqua;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.inl {
+  background-color: blue;
+  display: block;
+  width: 300px;
+  height: 400px;
+}
+
+/* --------2--------- */
+
+.second {
+  background-color: burlywood;
+  width: 300px;
+  height: 200px;
+}
+
+/* ------------4----------- */
+
+.b2 {
+  background-color: aqua;
+  display: inline;
+  padding: 50px;
+  margin: 50px;
+  box-sizing: border-box;
+}
+
+.in2 {
+  background-color: blue;
+  display: block;
+  width: 300px;
+  border: 5px solid black;
+  padding: 50px;
+  margin-top: 100px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: aquamarine;
+}
+
+/* -----------5------- */
+.left {
+  background-color: aqua;
+  width: 500px;
+  height: 500px;
+  float: left;
+}
+
+.right {
+  background-color: blueviolet;
+  width: 500px;
+  height: 500px;
+  float: right;
+}
+
+.main-article {
+  clear: left;
+}
+
+/* -----------6--------- */
+.container {
+  text-align: center;
+  margin: 0 auto;
+  background-color: aqua;
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+  margin-top: 100px;
+}
+
+/* ---------7--------------- */
+.b7 {
+  width: 300px;
+  height: 300px;
+  background-color: aquamarine;
+  position: absolute;
+  opacity: 0.75;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  left: 50px;
+}
+
+/* -------7-fixed---- */
+.fixed {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  color: black;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  position: fixed;
+}
+/* ----------7-relative------- */
+.relative {
+  background-color: aqua;
+  color: black;
+  height: 200px;
+  width: 300px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* ------7-static---------- */
+.static {
+  background-color: aqua;
+  color: black;
+  height: 200px;
+  width: 300px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+}
+/* ------------7-sticky-------- */
+.content {
+  width: 500px;
+  margin-inline: auto;
+}
+
+.sticky {
+  display: grid;
+  grid: auto / 200px;
+}
+
+.sticky h2 {
+  text-align: right;
+  align-self: flex-start;
+  top: 20px;
+  position: sticky;
+}
